@@ -1,0 +1,82 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+body {
+    background: #333;
+}
+a {
+    text-decoration: none;
+}
+.letra {
+    float: left;
+    width: 38px;
+    text-align: center;
+    vertical-align: middle;
+    font: 18px Tahoma, Arial;
+    color: white;
+    font-weight: bold;
+    background: #069;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.letra:hover {
+    background: #036;
+}
+.line.last {
+    margin-bottom: 0px;
+}
+
+div#enigma-box {
+    margin: 50px auto;
+    padding: 10px;
+    width: 600px;
+    background: linear-gradient(to bottom, #fff, #ccc);
+    border-radius: 8px;
+}
+div#enigma-box div.line {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.rotores {
+    float: left;
+    width: 65%;
+    margin-right: 1%;
+}
+.rotores label {
+    float: left;
+    width: 33.33%;
+    font-size: 16px;
+    font-family: Tahoma, Arial;
+}
+.rotores label input {
+    float: left;
+    width: 96%;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #667;
+}
+.descrip {
+    float: right;
+    width: 34%;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Resultado */
+span#result {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #667;
+    font-size: 19px;
+    font-family: Tahoma, Arial;
+    color: #665;
+}
+span#result span.resultado {
+    font-weight: bold;
+    text-transform: uppercase;
+}
